@@ -22,6 +22,24 @@ const reviews = [
       "Clean setup, skilled staff, and amazing aftercare. Highly recommend the premium package!",
     rating: 5,
   },
+  {
+    name: "Fatima Zafar",
+    comment:
+      "My skin feels so fresh and tight after the treatment. Worth every penny!",
+    rating: 4,
+  },
+  {
+    name: "Hira Naveed",
+    comment:
+      "Professional environment and the results are visible within days. Loved the LED therapy!",
+    rating: 5,
+  },
+  {
+    name: "Mehwish Raza",
+    comment:
+      "I was nervous at first, but the staff made me feel super comfortable. Amazing service!",
+    rating: 4,
+  },
 ];
 
 const Testimonials = () => {

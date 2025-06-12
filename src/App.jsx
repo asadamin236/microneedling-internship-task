@@ -6,13 +6,15 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import Pricing from "./components/Pricing";
 import FAQ from "./components/FAQ";
 import Testimonials from "./components/Testimonials";
+import "./App.css"; // 👈 Add this for global styles
 
 const App = () => {
   return (
     <div>
-      <h1 style={{ textAlign: "center", fontFamily: "Poppins, sans-serif" }}>
+      <header className="app-heading">
         Microneedling
-      </h1>
+      </header>
+
       <HeroMicroneedling />
       <WhatIsMicroneedling />
       <MicroneedlingProcess />

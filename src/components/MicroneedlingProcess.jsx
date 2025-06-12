@@ -1,7 +1,16 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaWater, FaSyringe, FaHeartbeat, FaSmileBeam } from "react-icons/fa";
+import {
+  FaWater,
+  FaSyringe,
+  FaHeartbeat,
+  FaSmileBeam,
+  FaLeaf,
+  FaTint,
+  FaStar,
+  FaRegSmile,
+} from "react-icons/fa";
 import "./MicroneedlingProcess.css";
 
 const steps = [
@@ -29,6 +38,29 @@ const steps = [
     description:
       "A calming serum is applied to reduce redness and accelerate recovery.",
   },
+  {
+    icon: <FaLeaf />,
+    title: "5. Antioxidant Boost",
+    description:
+      "Skin is enriched with antioxidants to fight environmental damage.",
+  },
+  {
+    icon: <FaTint />,
+    title: "6. Hydration Lock",
+    description: "A hyaluronic acid serum deeply hydrates and plumps the skin.",
+  },
+  {
+    icon: <FaStar />,
+    title: "7. LED Light Therapy",
+    description:
+      "Red or blue light is used to further enhance skin repair and glow.",
+  },
+  {
+    icon: <FaRegSmile />,
+    title: "8. Final Protection",
+    description:
+      "Sunscreen and aftercare advice are provided to protect your skin.",
+  },
 ];
 
 const MicroneedlingProcess = () => {
@@ -48,7 +80,7 @@ const MicroneedlingProcess = () => {
               className="step-card"
               key={index}
               data-aos="zoom-in-up"
-              data-aos-delay={index * 150} // delay for staggered effect
+              data-aos-delay={index * 100}
             >
               <div className="icon">{step.icon}</div>
               <h4>{step.title}</h4>
