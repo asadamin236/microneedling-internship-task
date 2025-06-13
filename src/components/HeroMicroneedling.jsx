@@ -24,7 +24,7 @@ const HeroMicroneedling = () => {
             <button
               className="cta-button"
               data-aos="zoom-in"
-              data-aos-delay="600"
+              data-aos-delay="500"
               onClick={() => setShowModal(true)}
             >
               Book Your Session
