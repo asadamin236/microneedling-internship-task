@@ -56,3 +56,18 @@
   background-color: #0b5ed7;
   box-shadow: 0 6px 16px rgba(13, 110, 253, 0.5);
 }
+
+@media (max-width: 576px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    font-size: 0.95rem;
+    padding: 10px 24px;
+  }
+}
